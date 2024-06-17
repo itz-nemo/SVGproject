@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SVG with CSS</title>
+    <style>
+      /* Styling for the body to center align text and set a background color */
+      body {
+        text-align: center;
+        background-color: #f0f8ff; /* Light blue background for better visibility */
+        font-family: Arial, sans-serif;
+      }
+      /* Styling for headings */
+      h1 {
+        color: #3333ff; /* Bright blue color for headings */
+        font-size: 2em; /* Larger font size for headings */
+        font-weight: bold; /* Bold font for headings */
+      }
+      /* Additional styling for descriptions */
+      p {
+        color: #333; /* Dark color for better readability */
+        font-size: 1.2em; /* Slightly larger font size for descriptions */
+      }
+      /* Common styling for SVG elements */
+      svg {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SVG Graphics Examples</h1>
+    <p>Below are some examples of SVG graphics with bright colors and explanations.</p>
+
+    <!-- Circle with red stroke and green fill -->
+    <svg width="300" height="300">
+      <circle cx="100" cy="100" r="80" stroke="red" stroke-width="4" fill="lime"/>
+      <!-- This circle has a center at (100, 100), a radius of 80, a red stroke, and a green fill -->
+      Sorry, your browser does not support inline SVG.
+    </svg>
+    <br>
+    
+    <!-- Rectangle with red fill and black stroke -->
+    <svg width="400" height="200">
+      <rect width="300" height="100" style="fill:rgb(255,0,0);stroke-width:3;stroke:rgb(0,0,0)" />
+      <!-- This rectangle is 300x100 pixels, filled with red and has a black stroke -->
+    </svg>
+    <br>
+    
+    <!-- Ellipse with black fill and text in the center -->
+    <svg height="130" width="500">
+      <ellipse cx="105" cy="70" rx="85" ry="60" fill="black"/>
+      <text fill="#ffffff" font-size="45" font-family="Tahoma" x="50" y="86">LOGO</text>
+      <!-- This ellipse has a center at (105, 70), a radius of 85 in x and 60 in y, and a text "LOGO" inside -->
+    </svg>
+  </body>
+</html>
